@@ -1,4 +1,6 @@
-
+function renderBooks() {
+  console.log('renderBooks(234533)')
+}
 
 // FAKE DATA
 function getBooks() {
@@ -6,7 +8,7 @@ function getBooks() {
     {
       id: 1,
       title: "Crack the Coding Interview",
-                url: "assets/crack the coding interview.png",
+      url: "assets/crack the coding interview.png",
       originalPrice: 49.95,
       salePrice: 14.95,
       rating: 4.5,
